@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##CSE-19 FileBin
 
-## Available Scripts
 
-In the project directory, you can run:
+A dedicated website to store all our files in one-place. This site contains all our courses, the related books, slides, lecture notes and previous questions. Using one google drive account for 120 users was never a good idea. Finding any file from that pile of junk was a nightmare. This is why we’ve come up with this solution. Link to the site: 
 
-### `npm start`
+ 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+Instructions: 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***NEVER SHARE THE LINK TO THIS SITE TO ANYONE*** 
 
-### `npm run build`
+I’ll be adding authentication within next week so that no-one can enter the site without an account. Until then please don’t share the link with anyone. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Using the site: 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+-All the files in this site are stored according to our subjects. You can choose a subject and get  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Related Books 
 
-### `npm run eject`
+Lecture Notes 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Slides 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Previous Questions 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Clicking on a file name will download the file so that you can use it or store it somewhere 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Don’t use the “Sessionals”, “Competitive Programming” pages. They’re under-construction. 
 
-## Learn More
+ 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Uploading files: 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Only CRs will add new files to the site. If you want any files to be added, just give it to them and they’ll do it for you 
 
-### Code Splitting
+-[Note for CRs]---------------------------------------------------------------------------- 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+-You can only add one file per-page at one go. If you want to add more files to the same page you need to add some other file to some other page and then come back to this page. (This is a feature, not a bug *ahem ahem*) 
 
-### Analyzing the Bundle Size
+-Use the link below to convert the files as I’ve shown you before 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+https://sites.google.com/site/gdocs2direct/home 
 
-### Making a Progressive Web App
+-Don’t use this site to convert folders (enter the url as it is for folders) 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+-------------------------------------------------------------------------------------------- 
 
-### Advanced Configuration
+We’ll be updating the site as we go. So feel free to report any bugs that you find while using the site.  
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Current Bugs: 
 
-### Deployment
+If you refresh a course page, it crashes. Same thing happens when you come back to a course page. Just go to the homepage and start again. (This happens because those pages require data coming from the homepage to load. So they need to be routed from the homepage 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ 
