@@ -3,7 +3,7 @@
 
 A dedicated website to store all our files in one-place. This site contains all our courses, the related books, slides, lecture notes and previous questions. Using one google drive account for 120 users was never a good idea. Finding any file from that pile of junk was a nightmare. This is why we’ve come up with this solution. Link to the site: 
 
-      <a href="cse-19-filebin.web.app">Click Here</a>
+                                    cse-19-filebin.web.app
 
 
 
@@ -13,18 +13,21 @@ Instructions:
 
 I’ll be adding authentication within next week so that no-one can enter the site without an account. Until then please don’t share the link with anyone. 
 
-[Using the site: ]
+[Using the site]
 
 -All the files in this site are stored according to our subjects. You can choose a subject and get 
 
 
-Related Books 
+      1. Related Books 
 
-Lecture Notes 
+      2. Lecture Notes 
 
-Slides 
+      3. Slides 
 
-Previous Questions 
+      4. Previous Questions 
+      
+      5. Recorded Classes
+      
 
 - Clicking on a file name will download the file so that you can use it or store it somewhere 
 
@@ -32,7 +35,7 @@ Previous Questions
 
  
 
-[Uploading files: ]
+[Uploading files]
 
 -Only CRs will add new files to the site. If you want any files to be added, just give it to them and they’ll do it for you 
 
