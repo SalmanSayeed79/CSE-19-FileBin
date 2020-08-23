@@ -1,4 +1,4 @@
-##CSE-19 FileBin
+<h1 style={color:"skyblue"}>CSE-19 FileBin</h1>
 
 
 A dedicated website to store all our files in one-place. This site contains all our courses, the related books, slides, lecture notes and previous questions. Using one google drive account for 120 users was never a good idea. Finding any file from that pile of junk was a nightmare. This is why we’ve come up with this solution. Link to the site: 
