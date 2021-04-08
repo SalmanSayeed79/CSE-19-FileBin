@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 style={color:"skyblue"}>CSE-19 FileBin</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+A dedicated website to store all our files in one-place. This site contains all our courses, the related books, slides, lecture notes and previous questions. Using one google drive account for 120 users was never a good idea. Finding any file from that pile of junk was a nightmare. This is why we’ve come up with this solution. Link to the site: 
 
-### `npm start`
+                                    cse-19-filebin.web.app
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+Instructions: 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***NEVER SHARE THE LINK TO THIS SITE TO ANYONE*** 
 
-### `npm run build`
+I’ll be adding authentication within next week so that no-one can enter the site without an account. Until then please don’t share the link with anyone. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Using the site]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+-All the files in this site are stored according to our subjects. You can choose a subject and get 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+      1. Related Books 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+      2. Lecture Notes 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      3. Slides 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+      4. Previous Questions 
+      
+      5. Recorded Classes
+      
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Clicking on a file name will download the file so that you can use it or store it somewhere 
 
-## Learn More
+- Don’t use the “Sessionals”, “Competitive Programming” pages. They’re under-construction. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Uploading files]
 
-### Code Splitting
+-Only CRs will add new files to the site. If you want any files to be added, just give it to them and they’ll do it for you 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+-[Note for CRs]
+---------------------------------------------------------------------------- 
 
-### Analyzing the Bundle Size
+-You can only add one file per-page at one go. If you want to add more files to the same page you need to add some other file to some other page and then come back to this page. (This is a feature, not a bug *ahem ahem*) 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+-Use the link below to convert the files as I’ve shown you before 
 
-### Making a Progressive Web App
+https://sites.google.com/site/gdocs2direct/home 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+-Don’t use this site to convert folders (enter the url as it is for folders) 
 
-### Advanced Configuration
+-------------------------------------------------------------------------------------------- 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+We’ll be updating the site as we go. So feel free to report any bugs that you find while using the site.  
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ 
