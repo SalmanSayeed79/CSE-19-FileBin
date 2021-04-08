@@ -2,6 +2,7 @@ import React from 'react';
 import {Route, BrowserRouter, Switch} from 'react-router-dom'
 import Home from './Pages/home'
 import SubjectPage from './Pages/subjectPage'
+import Links from './Pages/links'
 import Files from './Pages/files'
 import Slides from './Pages/slides';
 import Books from './Pages/books'
@@ -10,6 +11,7 @@ import Lectures from './Pages/lectures'
 import Sessionals from './Pages/sessionals'
 import Cp from './Pages/cp'
 import Classes from './Pages/classes'
+import NoticeEditor from './Pages/noticeEditor'
 
 
 
@@ -18,6 +20,9 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path='/' exact component={Home}/>
+        <Route path='/admin/notice' exact component={NoticeEditor}/>
+        <Route path='/links' exact component={Links}/>
+
         <Route path='/subject/:id' exact component={SubjectPage}/>
         <Route path='/books/:id' exact component={Books}/>
         <Route path='/classes/:id' exact component={Classes}/>

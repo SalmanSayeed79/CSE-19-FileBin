@@ -1,0 +1,37 @@
+.notice-editor-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.notice-editor-container input {
+  width: 80vw;
+  min-height: 2vh;
+  font-size: 1rem;
+  margin-bottom: .2rem;
+}
+
+.notice-editor-container textarea {
+  width: 80vw;
+  height: 10vh;
+  margin-bottom: .2rem;
+}
+
+.notice-editor-container button {
+  min-width: 10vw;
+  min-height: 2rem;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=noticeEditor.css.map */

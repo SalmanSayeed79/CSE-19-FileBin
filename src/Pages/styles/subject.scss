@@ -114,8 +114,10 @@ $primaryCol:#6C63FF;
 
 @media all and (max-width:800px){
     .half-wall{
+        min-height: 10vh !important;
+        
         h1{
-            margin-top: 2vh;
+            margin-top: 8vh;
         }
         h5{
             top: 2vh !important;
@@ -127,5 +129,9 @@ $primaryCol:#6C63FF;
                margin-top: 2vh;
             }
         }
+    
+    }
+    .add-file{
+        display: none;
     }
 }

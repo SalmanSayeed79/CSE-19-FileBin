@@ -134,7 +134,7 @@ $primaryCol:#6C63FF;
 }
 
 
-.courses, .sessionals, .questions, .links{
+.courses, .sessionals, .questions, .links,.notices{
     width: 100vw;
     min-height: 100vh;
     //background-color: red;
@@ -167,9 +167,13 @@ $primaryCol:#6C63FF;
      }
     
     }
-   .courses, .questions{
+   .courses, .questions,.notices{
        background-color: rgb(234, 244, 250);
    }
+
+
+
+
 
 .footer{
     width: 100vw;

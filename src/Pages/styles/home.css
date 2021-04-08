@@ -166,7 +166,7 @@
   cursor: pointer;
 }
 
-.courses, .sessionals, .questions, .links {
+.courses, .sessionals, .questions, .links, .notices {
   width: 100vw;
   min-height: 100vh;
   display: -webkit-box;
@@ -181,7 +181,7 @@
           align-items: center;
 }
 
-.courses h1, .sessionals h1, .questions h1, .links h1 {
+.courses h1, .sessionals h1, .questions h1, .links h1, .notices h1 {
   margin-top: 5vh;
   margin-bottom: 5vh;
   color: #6C63FF;
@@ -206,7 +206,7 @@
   width: 20vw;
 }
 
-.courses, .questions {
+.courses, .questions, .notices {
   background-color: #eaf4fa;
 }
 

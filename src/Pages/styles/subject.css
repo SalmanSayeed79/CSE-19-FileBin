@@ -153,8 +153,11 @@
 }
 
 @media all and (max-width: 800px) {
+  .half-wall {
+    min-height: 10vh !important;
+  }
   .half-wall h1 {
-    margin-top: 2vh;
+    margin-top: 8vh;
   }
   .half-wall h5 {
     top: 2vh !important;
@@ -168,6 +171,9 @@
   }
   .half-wall .text-bar div {
     margin-top: 2vh;
+  }
+  .add-file {
+    display: none;
   }
 }
 /*# sourceMappingURL=subject.css.map */

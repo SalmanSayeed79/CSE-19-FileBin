@@ -40,5 +40,18 @@ $primaryCol:#6C63FF;
 @media all and (max-width:800px){
     .card-body{
         width: 70vw;
+        height: 3vh;
+        align-items: center;
+        justify-content: center;
+        h2{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        p{
+            display: none;
+        }
+        h5{
+            display: none;
+        }
     }
 }

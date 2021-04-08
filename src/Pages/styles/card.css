@@ -48,6 +48,23 @@
 @media all and (max-width: 800px) {
   .card-body {
     width: 70vw;
+    height: 3vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .card-body h2 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .card-body p {
+    display: none;
+  }
+  .card-body h5 {
+    display: none;
   }
 }
 /*# sourceMappingURL=card.css.map */

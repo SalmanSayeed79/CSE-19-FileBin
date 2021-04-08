@@ -1,0 +1,113 @@
+.notice-card {
+  width: 80vw;
+  min-height: 10vh;
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  border: 0.5px solid #bdbcbc;
+  -webkit-box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.37);
+          box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.37);
+  background-color: white;
+}
+
+.notice-card .notice-title {
+  width: 75vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.notice-card .notice-title h2 {
+  cursor: pointer;
+  text-align: center;
+}
+
+.notice-card .notice-title p {
+  color: gray;
+}
+
+.notice-card .notice-body {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+  max-width: 75vw;
+  overflow-x: scroll;
+}
+
+.notice-card .notice-body pre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 60vw;
+  text-align: left;
+}
+
+.notice-card .notice-body .notice-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.notice-card .notice-body .notice-links a {
+  text-align: left;
+  width: 70vw;
+}
+
+.notice-card .notice-body #editor {
+  color: gray;
+}
+
+.show {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media all and (max-width: 800px) {
+  .notice-card .notice-body {
+    font-size: .8rem;
+  }
+}
+/*# sourceMappingURL=notice.css.map */
